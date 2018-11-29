@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ANIMAL PLANET</title>
+	</head>
+	 <body onload="loaddate()">
+    <h1> ANIMAL PLANET</h1> 
+	  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script>
+  var imgIndex = 0;
+  var backgroundImages = ['url(https://wallpapersite.com/images/wallpapers/polygons-3840x2160-artwork-4k-4311.jpg)',
+  'url("https://hdqwalls.com/download/3d-cube-background-4k-yo-2048x2048.jpg)',
+  'url(https://wallpapersite.com/images/wallpapers/blur-background-3840x2400-spectrum-electromagnetic-4k-901.jpg)'
+  ];
+  var alignStyles = ["center", "left", "right"];
+  var alignIndex = 0;
+function changebackground() {
+if (imgIndex + 1 > 2)
+   imgIndex = 0;
+else 
+   imgIndex = imgIndex+1;
+document.body.style.backgroundImage = 
+backgroundImages[imgIndex];
+}
+
+function changedivposition() {
+if (alignIndex + 1 > 2)
+   alignIndex = 0;
+else 
+   alignIndex = alignIndex+1;
+document.getElementById("posdiv").style.textAlign=alignStyles[alignIndex];
+}
+
+function imageclicker() {
+document.getElementById("imgdiv").innerHTML = "<p>This is just an ordinary computer for now.</p>"
+}
+</script>
+  <br/>
+  
+    <h2> Created By</h2>
+  <h3> Joel Indurkar and Shreyas Srikanth </h3>
+  <br/>
+  
+  <h2> Our Mission </h2>
+  <h4> This planet has a lot of animals, </h4>
+  <h4> but it is hard to get all the information</h4>
+  <h4> one needs in one place. We are here</h4> 
+  <h4> to educate people on various animals </h4>
+  <h4> in one convienient location! </h4><br/>
+  
+   <button onclick="changebackground();">Change Background</button>
+    <div id="posdiv" class="divmiddle" onclick="changedivposition();">
+ <p>
+ This area is under construction. 
+ </p>
+</div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Ícono_Computadora_-_Internet.JPG/240px-Ícono_Computadora_-_Internet.JPG" width="100" height="100" onclick="imageclicker()"></img>
+<div id="imgdiv">
+</div>
+</html>
