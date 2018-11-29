@@ -1,0 +1,40 @@
+body {
+    background-image: url("https://hdqwalls.com/download/3d-cube-background-4k-yo-2048x2048.jpg");
+}
+
+body {
+    color: white;
+}
+
+body {
+    text-align: center;
+}
+
+h1 { 
+ font-family: CALIBRI;
+ font-size: 40px 
+} 
+
+h2 {  
+ font-family: CALIBRI;
+ font-size: 24px 
+} 
+
+h3 { 
+ font-family: CALIBRI;
+ font-size: 20px 
+} 
+
+h4 { 
+ font-family: CALIBRI;
+ font-size: 16px 
+} 
+
+.divmiddle {
+  margin:0 auto;
+  text-align: center;
+}
+
+p { 
+ font-size: 16px 
+ } 
