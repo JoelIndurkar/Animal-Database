@@ -38,3 +38,18 @@ h4 {
 p { 
  font-size: 16px 
  } 
+ 
+a {
+  color: white;
+} 
+
+img {
+    height: 300px;
+    width: 300px;    
+}
+
+button {
+  height: 25px;
+  width: 50;
+  
+}
