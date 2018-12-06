@@ -1,0 +1,13 @@
+SHOW DATABASES;
+CREATE DATABASE project_db;
+USE project_db;
+CREATE TABLE animals (id INT(11), name VARCHAR(20), location VARCHAR(10), color VARCHAR(8), food VARCHAR(25));
+INSERT INTO animals (id, name, location, color, food) VALUES (1, "Panda", "China", "bl/w", "bamboo");
+INSERT INTO animals (id, name, location, color, food) VALUES (2,"Penguin", "Antartica", "bl/w", "fish");
+INSERT INTO animals (id, name, location, color, food) VALUES (3,"Dolphin","Tropics","bl/w/gry", "fish/squid");
+INSERT INTO animals (id, name, location, color, food) VALUES (4, "Parrot", "S Tropics", "rainbow", "insects/nuts/seeds");
+INSERT INTO animals (id, name, location, color, food) VALUES (5, "Tiger", "Asia", "r/bl","meat");
+INSERT INTO animals (id, name, location, color, food) VALUES (6, "Grizzly Bear", "N. America", "w/brown", "berries/fish");
+INSERT INTO animals (id, name, location, color, food) VALUES (7, "Snake", "Worldwide", "drk brwn", "rodents/insects");
+SELECT * FROM animals;
+SHOW TABLES;
