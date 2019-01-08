@@ -1,5 +1,5 @@
 <?php
-    
+  
     require_once 'logi.php';
     echo $_Post['myTest'];
 
